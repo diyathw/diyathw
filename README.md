@@ -87,6 +87,9 @@ My work has crossed **building-management platforms, fleet telematics and video,
     <td align="center" width="110"><img src="https://api.iconify.design/logos:esbuild.svg" width="48" height="48" alt="esbuild"><br>esbuild</td>
     <td align="center" width="110"><img src="https://api.iconify.design/vscode-icons:file-type-husky.svg" width="48" height="48" alt="Husky"><br>Husky</td>
   </tr>
+  <tr>
+    <td align="center" width="110"><img src="https://cdn.simpleicons.org/here/00AFAA" width="48" height="48" alt="Nokia HERE Maps"><br>HERE Maps</td>
+  </tr>
 </table>
 
 <div align="center">
@@ -187,7 +190,7 @@ Test-Driven Development (TDD) · Automated testing · ESLint · Husky · Docker 
 Git · GitHub · Bitbucket · Jira · Confluence · Visual Studio Code · WebStorm · Postman · Linux · Windows · macOS · iOS · Branch strategies · Code review
 
 **Integrations**<br>
-Stripe · REST APIs · Webhooks · Google APIs · Shopify
+Stripe · REST APIs · Webhooks · Google APIs · Shopify · Nokia HERE Maps
 
 **AI-assisted engineering**<br>
 Claude Code · OpenAI Codex · ChatGPT · Reusable AI skills · Team-agent workflows · Multi-agent orchestration · Sub-agent delegation · AI-assisted planning · Prototyping · Debugging · Refactoring · Human-reviewed delivery

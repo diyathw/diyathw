@@ -79,6 +79,11 @@ My work has crossed **building-management platforms, fleet telematics and video,
     <td align="center" width="110"><img src="https://skillicons.dev/icons?i=php" width="48" height="48" alt="PHP"><br>PHP</td>
     <td align="center" width="110"><img src="https://skillicons.dev/icons?i=webstorm" width="48" height="48" alt="WebStorm"><br>WebStorm</td>
   </tr>
+  <tr>
+    <td align="center" width="110"><img src="https://api.iconify.design/logos:oauth.svg" width="48" height="48" alt="OAuth 2.0"><br>OAuth 2.0</td>
+    <td align="center" width="110"><img src="https://cdn.simpleicons.org/okta/007DC1" width="48" height="48" alt="Okta"><br>Okta</td>
+    <td align="center" width="110"><img src="https://api.iconify.design/logos:aws-cognito.svg" width="48" height="48" alt="Amazon Cognito"><br>Amazon Cognito</td>
+  </tr>
 </table>
 
 <div align="center">
@@ -165,6 +170,9 @@ React · Next.js · Vue.js · TypeScript · JavaScript · HTML5 · CSS3 · Webpa
 
 **AWS & infrastructure**<br>
 Lambda · SQS · SNS · SES · EventBridge · S3 · CloudFront · Route 53 · Certificate Manager · IAM · KMS · Secrets Manager · Fargate · ALB/NLB · CDK · CloudFormation · Terraform
+
+**Security & identity**<br>
+OAuth 2.0 · Okta · Amazon Cognito · IAM · KMS · Secrets Manager
 
 **Data & reporting**<br>
 MongoDB · Mongoose · DynamoDB · Redis · MySQL · Microsoft SQL Server · SAP Crystal Reports

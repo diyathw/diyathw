@@ -84,6 +84,7 @@ My work has crossed **building-management platforms, fleet telematics and video,
     <td align="center" width="110"><img src="https://cdn.simpleicons.org/okta/007DC1" width="48" height="48" alt="Okta"><br>Okta</td>
     <td align="center" width="110"><img src="https://api.iconify.design/logos:aws-cognito.svg" width="48" height="48" alt="Amazon Cognito"><br>Amazon Cognito</td>
     <td align="center" width="110"><img src="https://skillicons.dev/icons?i=eslint" width="48" height="48" alt="ESLint"><br>ESLint</td>
+    <td align="center" width="110"><img src="https://api.iconify.design/logos:esbuild.svg" width="48" height="48" alt="esbuild"><br>esbuild</td>
   </tr>
 </table>
 
@@ -167,7 +168,7 @@ My work has crossed **building-management platforms, fleet telematics and video,
 Node.js · Express.js · NestJS · PHP · Laravel · C# · .NET Core · REST APIs · Microservices · Event-driven architecture
 
 **Frontend**<br>
-React · Next.js · Vue.js · TypeScript · JavaScript · HTML5 · CSS3 · Webpack · Vite · Redux · Material UI · Tailwind CSS
+React · Next.js · Vue.js · TypeScript · JavaScript · HTML5 · CSS3 · Webpack · Vite · esbuild · Redux · Material UI · Tailwind CSS
 
 **AWS & infrastructure**<br>
 Lambda · SQS · SNS · SES · EventBridge · S3 · CloudFront · Route 53 · Certificate Manager · IAM · KMS · Secrets Manager · Fargate · ALB/NLB · CDK · CloudFormation · Terraform

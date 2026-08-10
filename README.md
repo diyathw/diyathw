@@ -74,6 +74,7 @@ My work has crossed **building-management platforms, fleet telematics and video,
   <tr>
     <td align="center" width="110"><img src="https://skillicons.dev/icons?i=apple" width="48" height="48" alt="macOS"><br>macOS</td>
     <td align="center" width="110"><img src="https://cdn.simpleicons.org/ios/147EFB" width="48" height="48" alt="iOS"><br>iOS</td>
+    <td align="center" width="110"><img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub"><br>GitHub</td>
   </tr>
 </table>
 
@@ -169,7 +170,7 @@ MongoDB · Mongoose · DynamoDB · MySQL · Microsoft SQL Server · SAP Crystal 
 Test-Driven Development (TDD) · Automated testing · Docker · CI/CD · Playwright · Jest · Sentry · Codacy · GitHub Actions · Bitbucket Pipelines
 
 **Collaboration & tooling**<br>
-Git · Bitbucket · Jira · Confluence · Visual Studio Code · WebStorm · Postman · Linux · Windows · macOS · iOS · Branch strategies · Code review
+Git · GitHub · Bitbucket · Jira · Confluence · Visual Studio Code · WebStorm · Postman · Linux · Windows · macOS · iOS · Branch strategies · Code review
 
 **Integrations**<br>
 Stripe · REST APIs · Webhooks · Google APIs · Shopify

@@ -83,6 +83,7 @@ My work has crossed **building-management platforms, fleet telematics and video,
     <td align="center" width="110"><img src="https://api.iconify.design/logos:oauth.svg" width="48" height="48" alt="OAuth 2.0"><br>OAuth 2.0</td>
     <td align="center" width="110"><img src="https://cdn.simpleicons.org/okta/007DC1" width="48" height="48" alt="Okta"><br>Okta</td>
     <td align="center" width="110"><img src="https://api.iconify.design/logos:aws-cognito.svg" width="48" height="48" alt="Amazon Cognito"><br>Amazon Cognito</td>
+    <td align="center" width="110"><img src="https://skillicons.dev/icons?i=eslint" width="48" height="48" alt="ESLint"><br>ESLint</td>
   </tr>
 </table>
 
@@ -178,7 +179,7 @@ OAuth 2.0 · Okta · Amazon Cognito · IAM · KMS · Secrets Manager
 MongoDB · Mongoose · DynamoDB · Redis · MySQL · Microsoft SQL Server · SAP Crystal Reports
 
 **Quality & delivery**<br>
-Test-Driven Development (TDD) · Automated testing · Docker · CI/CD · Playwright · Jest · Sentry · Codacy · GitHub Actions · Bitbucket Pipelines
+Test-Driven Development (TDD) · Automated testing · ESLint · Docker · CI/CD · Playwright · Jest · Sentry · Codacy · GitHub Actions · Bitbucket Pipelines
 
 **Collaboration & tooling**<br>
 Git · GitHub · Bitbucket · Jira · Confluence · Visual Studio Code · WebStorm · Postman · Linux · Windows · macOS · iOS · Branch strategies · Code review

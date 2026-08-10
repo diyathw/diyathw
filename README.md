@@ -77,6 +77,7 @@ My work has crossed **building-management platforms, fleet telematics and video,
     <td align="center" width="110"><img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub"><br>GitHub</td>
     <td align="center" width="110"><img src="https://skillicons.dev/icons?i=redis" width="48" height="48" alt="Redis"><br>Redis</td>
     <td align="center" width="110"><img src="https://skillicons.dev/icons?i=php" width="48" height="48" alt="PHP"><br>PHP</td>
+    <td align="center" width="110"><img src="https://skillicons.dev/icons?i=webstorm" width="48" height="48" alt="WebStorm"><br>WebStorm</td>
   </tr>
 </table>
 

@@ -1,0 +1,39 @@
+# Generate an animated 3D contribution calendar for the profile README.
+# The generated SVG files are committed to profile-3d-contrib/.
+name: Generate 3D contribution graph
+
+on:
+  schedule:
+    # 07:15 UTC is 03:15 in Toronto during daylight saving time.
+    - cron: "15 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v5
+
+      - name: Generate contribution graphics
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit updated graphics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-3d-contrib
+          if git diff --cached --quiet; then
+            echo "Contribution graphics are already current."
+          else
+            git commit -m "chore: update 3D contribution graph [skip ci]"
+            git push
+          fi

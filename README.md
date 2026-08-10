@@ -91,6 +91,7 @@ My work has crossed **building-management platforms, fleet telematics and video,
 ![Codacy](https://img.shields.io/badge/Codacy-222F29?style=for-the-badge&logo=codacy&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
+![Test-Driven Development](https://img.shields.io/badge/Test--Driven_Development-0969DA?style=for-the-badge&logo=checkmarx&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
 ![Microsoft SQL Server](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![SAP Crystal Reports](https://img.shields.io/badge/SAP_Crystal_Reports-0FAAFF?style=for-the-badge&logo=sap&logoColor=white)
@@ -153,7 +154,7 @@ Lambda · SQS · SNS · SES · EventBridge · S3 · CloudFront · Route 53 · Ce
 MongoDB · Mongoose · DynamoDB · MySQL · Microsoft SQL Server · SAP Crystal Reports
 
 **Quality & delivery**<br>
-Docker · CI/CD · Playwright · Jest · Sentry · Codacy · GitHub Actions · Bitbucket Pipelines
+Test-Driven Development (TDD) · Automated testing · Docker · CI/CD · Playwright · Jest · Sentry · Codacy · GitHub Actions · Bitbucket Pipelines
 
 **Collaboration & tooling**<br>
 Git · Bitbucket · Jira · Confluence · Visual Studio Code · WebStorm · Postman · Branch strategies · Code review

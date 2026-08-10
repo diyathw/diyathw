@@ -75,6 +75,7 @@ My work has crossed **building-management platforms, fleet telematics and video,
     <td align="center" width="110"><img src="https://skillicons.dev/icons?i=apple" width="48" height="48" alt="macOS"><br>macOS</td>
     <td align="center" width="110"><img src="https://cdn.simpleicons.org/ios/147EFB" width="48" height="48" alt="iOS"><br>iOS</td>
     <td align="center" width="110"><img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub"><br>GitHub</td>
+    <td align="center" width="110"><img src="https://skillicons.dev/icons?i=redis" width="48" height="48" alt="Redis"><br>Redis</td>
   </tr>
 </table>
 
@@ -164,7 +165,7 @@ React · Next.js · Vue.js · TypeScript · JavaScript · HTML5 · CSS3 · Webpa
 Lambda · SQS · SNS · SES · EventBridge · S3 · CloudFront · Route 53 · Certificate Manager · IAM · KMS · Secrets Manager · Fargate · ALB/NLB · CDK · CloudFormation · Terraform
 
 **Data & reporting**<br>
-MongoDB · Mongoose · DynamoDB · MySQL · Microsoft SQL Server · SAP Crystal Reports
+MongoDB · Mongoose · DynamoDB · Redis · MySQL · Microsoft SQL Server · SAP Crystal Reports
 
 **Quality & delivery**<br>
 Test-Driven Development (TDD) · Automated testing · Docker · CI/CD · Playwright · Jest · Sentry · Codacy · GitHub Actions · Bitbucket Pipelines

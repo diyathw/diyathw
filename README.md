@@ -48,6 +48,14 @@ My work has crossed **building-management platforms, fleet telematics and video,
     <td align="center" width="110"><img src="https://skillicons.dev/icons?i=aws" width="48" height="48" alt="AWS"><br>AWS</td>
   </tr>
   <tr>
+    <td align="center" width="110"><img src="https://skillicons.dev/icons?i=webpack" width="48" height="48" alt="Webpack"><br>Webpack</td>
+    <td align="center" width="110"><img src="https://skillicons.dev/icons?i=vite" width="48" height="48" alt="Vite"><br>Vite</td>
+    <td align="center" width="110"><img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML5"><br>HTML5</td>
+    <td align="center" width="110"><img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS3"><br>CSS3</td>
+    <td align="center" width="110"><img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux"><br>Linux</td>
+    <td align="center" width="110"><img src="https://skillicons.dev/icons?i=windows" width="48" height="48" alt="Windows"><br>Windows</td>
+  </tr>
+  <tr>
     <td align="center" width="110"><img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" alt="MongoDB"><br>MongoDB</td>
     <td align="center" width="110"><img src="https://skillicons.dev/icons?i=mysql" width="48" height="48" alt="MySQL"><br>MySQL</td>
     <td align="center" width="110"><img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker"><br>Docker</td>
@@ -62,6 +70,10 @@ My work has crossed **building-management platforms, fleet telematics and video,
     <td align="center" width="110"><img src="https://cdn.simpleicons.org/confluence/172B4D" width="48" height="48" alt="Confluence"><br>Confluence</td>
     <td align="center" width="110"><img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="Visual Studio Code"><br>VS Code</td>
     <td align="center" width="110"><img src="https://skillicons.dev/icons?i=postman" width="48" height="48" alt="Postman"><br>Postman</td>
+  </tr>
+  <tr>
+    <td align="center" width="110"><img src="https://skillicons.dev/icons?i=apple" width="48" height="48" alt="macOS"><br>macOS</td>
+    <td align="center" width="110"><img src="https://cdn.simpleicons.org/ios/147EFB" width="48" height="48" alt="iOS"><br>iOS</td>
   </tr>
 </table>
 
@@ -145,7 +157,7 @@ My work has crossed **building-management platforms, fleet telematics and video,
 Node.js · Express.js · NestJS · C# · .NET Core · Laravel · REST APIs · Microservices · Event-driven architecture
 
 **Frontend**<br>
-React · Next.js · Vue.js · TypeScript · JavaScript · Redux · Material UI · Tailwind CSS
+React · Next.js · Vue.js · TypeScript · JavaScript · HTML5 · CSS3 · Webpack · Vite · Redux · Material UI · Tailwind CSS
 
 **AWS & infrastructure**<br>
 Lambda · SQS · SNS · SES · EventBridge · S3 · CloudFront · Route 53 · Certificate Manager · IAM · KMS · Secrets Manager · Fargate · ALB/NLB · CDK · CloudFormation · Terraform
@@ -157,7 +169,7 @@ MongoDB · Mongoose · DynamoDB · MySQL · Microsoft SQL Server · SAP Crystal 
 Test-Driven Development (TDD) · Automated testing · Docker · CI/CD · Playwright · Jest · Sentry · Codacy · GitHub Actions · Bitbucket Pipelines
 
 **Collaboration & tooling**<br>
-Git · Bitbucket · Jira · Confluence · Visual Studio Code · WebStorm · Postman · Branch strategies · Code review
+Git · Bitbucket · Jira · Confluence · Visual Studio Code · WebStorm · Postman · Linux · Windows · macOS · iOS · Branch strategies · Code review
 
 **Integrations**<br>
 Stripe · REST APIs · Webhooks · Google APIs · Shopify

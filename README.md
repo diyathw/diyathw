@@ -76,6 +76,7 @@ My work has crossed **building-management platforms, fleet telematics and video,
     <td align="center" width="110"><img src="https://cdn.simpleicons.org/ios/147EFB" width="48" height="48" alt="iOS"><br>iOS</td>
     <td align="center" width="110"><img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub"><br>GitHub</td>
     <td align="center" width="110"><img src="https://skillicons.dev/icons?i=redis" width="48" height="48" alt="Redis"><br>Redis</td>
+    <td align="center" width="110"><img src="https://skillicons.dev/icons?i=php" width="48" height="48" alt="PHP"><br>PHP</td>
   </tr>
 </table>
 
@@ -156,7 +157,7 @@ My work has crossed **building-management platforms, fleet telematics and video,
 ## Capability map
 
 **Backend & APIs**<br>
-Node.js · Express.js · NestJS · C# · .NET Core · Laravel · REST APIs · Microservices · Event-driven architecture
+Node.js · Express.js · NestJS · PHP · Laravel · C# · .NET Core · REST APIs · Microservices · Event-driven architecture
 
 **Frontend**<br>
 React · Next.js · Vue.js · TypeScript · JavaScript · HTML5 · CSS3 · Webpack · Vite · Redux · Material UI · Tailwind CSS

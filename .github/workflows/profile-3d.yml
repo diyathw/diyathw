@@ -3,6 +3,11 @@
 name: Generate 3D contribution graph
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/profile-3d.yml"
   schedule:
     # 07:15 UTC is 03:15 in Toronto during daylight saving time.
     - cron: "15 7 * * *"

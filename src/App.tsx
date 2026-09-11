@@ -6,6 +6,7 @@ import type { IconType } from "react-icons";
 import { useRef } from "react";
 import { ArchitectureFlow } from "./components/ArchitectureFlow";
 import { HeroArchitecture } from "./components/HeroArchitecture";
+import { HeroVideo } from "./components/HeroVideo";
 import { Navigation } from "./components/Navigation";
 import { ProjectCard } from "./components/ProjectCard";
 import { Reveal } from "./components/Reveal";
@@ -47,6 +48,7 @@ function App() {
       <main id="main">
         <section className="hero section-grid" id="top">
           <div className="hero__glow" aria-hidden="true" />
+          <HeroVideo />
           <div className="container hero__inner">
             <div className="hero__copy">
               <span className="eyebrow"><span className="eyebrow-dot" />Senior Software Engineer</span>
@@ -68,8 +70,8 @@ function App() {
 
         <section className="impact" aria-label="Professional impact">
           <div className="container impact__grid">
-            {metrics.map((metric) => (
-              <div className="metric" key={metric.label}><strong>{metric.value}</strong><span>{metric.label}</span></div>
+            {metrics.map((metric, index) => (
+              <Reveal className="metric" delay={index * 0.06} key={metric.label}><strong>{metric.value}</strong><span>{metric.label}</span></Reveal>
             ))}
           </div>
         </section>
@@ -163,12 +165,19 @@ function App() {
             <SectionHeading eyebrow="Engineering" title="How I Think About Systems" copy="Conceptual patterns that show how I reason about boundaries, failure, delivery and scale. They are not representations of confidential employer architecture." />
             <div className="systems-grid">
               {systemPatterns.map((pattern, index) => (
-                <article className="system-card" key={pattern.title}>
+                <motion.article
+                  className="system-card"
+                  key={pattern.title}
+                  initial={reduceMotion ? { opacity: 0 } : { opacity: 0, transform: "translateY(10px)" }}
+                  whileInView={{ opacity: 1, transform: "translateY(0)" }}
+                  viewport={{ once: true, amount: 0.18, margin: "0px 0px -64px" }}
+                  transition={{ duration: reduceMotion ? 0.14 : 0.28, delay: reduceMotion ? 0 : (index % 2) * 0.08, ease: [0.23, 1, 0.32, 1] }}
+                >
                   <div className="system-card__number">0{index + 1}</div>
                   <h3>{pattern.title}</h3><p>{pattern.description}</p>
                   <ArchitectureFlow nodes={pattern.flow} compact label={pattern.title} />
                   <div className="principle-tags">{pattern.principles.map((principle) => <span key={principle}>{principle}</span>)}</div>
-                </article>
+                </motion.article>
               ))}
             </div>
           </div>
@@ -178,7 +187,19 @@ function App() {
           <div className="container">
             <SectionHeading eyebrow="Technology" title="Tools organized around capability." copy="The value isn’t in a logo wall. It’s in choosing the right layer, understanding its trade-offs and operating it in production." />
             <div className="skills-grid">
-              {skills.map((group) => <article className="skill-card" key={group.category}><h3>{group.category}</h3><div>{group.items.map((item) => <span key={item}>{item}</span>)}</div></article>)}
+              {skills.map((group, index) => (
+                <motion.article
+                  className="skill-card"
+                  key={group.category}
+                  initial={reduceMotion ? { opacity: 0 } : { opacity: 0, transform: "translateY(10px)" }}
+                  whileInView={{ opacity: 1, transform: "translateY(0)" }}
+                  viewport={{ once: true, amount: 0.18, margin: "0px 0px -64px" }}
+                  transition={{ duration: reduceMotion ? 0.14 : 0.28, delay: reduceMotion ? 0 : (index % 3) * 0.06, ease: [0.23, 1, 0.32, 1] }}
+                >
+                  <h3>{group.category}</h3>
+                  <div>{group.items.map((item) => <span key={item}>{item}</span>)}</div>
+                </motion.article>
+              ))}
             </div>
           </div>
         </section>
